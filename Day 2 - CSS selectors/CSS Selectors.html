@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*   Universal selector
+        *{
+            background-color: chartreuse;
+        }
+         */
+
+      .container1
+      {
+          color:blue;
+      }
+      .container2
+      {
+          background-color:darksalmon ;
+      }
+      /* In grouping, commas are mandatory*/
+      .a, .b, .c, #one, h5
+      {
+          font-size: x-large;
+          color:darksalmon;
+          background-color: darkolivegreen;
+      }
+      /* tag with multiple classes */
+      .container1.container2{
+          font-size:xx-large;
+      }
+
+    </style>
+</head>
+<body>
+   
+    <div class = "container1">
+        <h1>heading inside div with container1 class</h1>
+        <p> para inside div with container1 class</p>
+    </div>
+     <p class = "container2">this is a para with container2 class</p>
+     <p class="container1 container2">This is a para with both container1 and container2 classes </p>
+     <h1> below is demonstration of grouping. It can be done to both classes,id's, tags and their combination</h1>
+     <p class="a">This is class a </p>
+     <p class ="b">This is class b</p>
+     <p class ="c"> This is class c</p>
+     <h3 id ="one">This is heading with id as one</h3>
+     <h5>I am h5 and grouping can also be applied to me</h5>
+</body>
+</html>
