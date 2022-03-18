@@ -1,3 +1,8 @@
+// use this course to learn more about javascript
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+
+
+
 console.log("swaagat hai aap sabhi logo ka!!!");
 
 let a =10;
